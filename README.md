@@ -20,3 +20,6 @@ instead of the option installer, use the auto installer that downloads the lates
 
 # I want to add a feature!
 You can always add a feature request in the Issues tab!, also you can make a pull request if u want
+
+# How to start it?
+The command to start it is tdm, BUT in xstartup or others, dont use tdm & , use tdm

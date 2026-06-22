@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 
-# 1. Mostrar el banner ASCII
+#
 cat << 'ART'
   _____ ____  _        _  _      ____ _____ ____  _     _     _____ ____ 
 /__ __Y  _ \/ \__/|  / \/ \  /|/ ___Y__ __Y  _ \/ \   / \   /  __//  __\
@@ -12,7 +12,7 @@ ART
 
 echo ""
 
-# 2. Mostrar el menú de opciones
+# 
 cat << 'MENU'
 Please select the TDM version you want to install:
 1) Version 1
@@ -23,10 +23,10 @@ Please select the TDM version you want to install:
 
 MENU
 
-# 3. Leer la opción del usuario
+# 
 read -p "Enter your choice [1-5]: " version_choice
 
-# Variable para guardar la URL del archivo .deb correspondiente
+# 
 DEB_URL=""
 
 case $version_choice in
@@ -56,7 +56,7 @@ case $version_choice in
         ;;
 esac
 
-# 4. Proceso de instalación común para cualquier opción seleccionada
+#
 echo ""
 echo "Installing base repositories and core packages..."
 pkg install root-repo x11-repo tur-repo -y && \

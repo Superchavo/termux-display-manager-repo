@@ -16,7 +16,7 @@ No! this isnt a virus, its a dm, you can always undeb the .deb when u want
 I made this bc i always dreamed of a DM (display manager) for termux, but sadly, lightdm, sddm, gdm, they cant be compilled into termux bc of systemd, but TDM is made in python,
 
 # For automated installers like making termux better or others like installing desktops
-instead of the option installer, use the auto installer that downloads the latest version of TDM, use: wget https://raw.githubusercontent.com/Superchavo/termux-display-manager-repo/refs/heads/master/tdmautoinstall.sh && chmod +x ./tdmautoinstall && ./tdmautoinstall
+instead of the option installer, use the auto installer that downloads the latest version of TDM, use: wget https://raw.githubusercontent.com/Superchavo/termux-display-manager-repo/refs/heads/master/tdmautoinstall.sh && chmod +x ./tdmautoinstall.sh && ./tdmautoinstall.sh
 
 # I want to add a feature!
 You can always add a feature request in the Issues tab!, also you can make a pull request if u want

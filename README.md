@@ -22,4 +22,4 @@ instead of the option installer, use the auto installer that downloads the lates
 You can always add a feature request in the Issues tab!, also you can make a pull request if u want
 
 # How to start it?
-The command to start it is tdm, BUT in xstartup or others, dont use tdm & , use tdm
+The command to start it is tdm, BUT in xstartup or others, dont use tdm & , use tdm, but if ur gonna run it on plain terminal do tdm & , just in tigervnc not bc its going to think that tdm isnt the main and close the server

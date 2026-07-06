@@ -23,3 +23,7 @@ You can always add a feature request in the Issues tab!, also you can make a pul
 
 # How to start it?
 The command to start it is tdm, BUT in xstartup or others, dont use tdm & , use tdm, but if ur gonna run it on plain terminal do tdm & , just in tigervnc not bc its going to think that tdm isnt the main and close the server
+
+# apps in open source 
+here are the apps that u can download without anything else
+https://github.com/Superchavo/MyAppsOpenSourced/tree/main

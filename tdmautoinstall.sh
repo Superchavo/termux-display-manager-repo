@@ -15,7 +15,7 @@ echo "Starting Unattended Auto-Installation for TDM Version 5 LTS..."
 echo "------------------------------------------------------------"
 
 # 
-DEB_URL="https://github.com/Superchavo/termux-display-manager-repo/raw/refs/heads/master/termux-dm_5.0-LTS-Support.deb"
+DEB_URL="https://github.com/Superchavo/termux-display-manager-repo/raw/refs/heads/master/TermuxDM-v6-LTS-Codenamed-Morano.deb"
 
 # 
 echo ""

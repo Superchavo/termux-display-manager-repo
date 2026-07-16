@@ -17,14 +17,15 @@ cat << 'MENU'
 Please select the TDM version you want to install:
 1) Version 1
 2) Version 2
-3) Version 3
-4) Version 5 LTS (4 is not here bc 4 is the beta for 5)
-5) Cancel Installation
+3) Version 3.4
+4) Version 5 LTS
+5) Version 6 LTS (Codenamed Morano)
+6) Cancel Installation
 
 MENU
 
 # 
-read -p "Enter your choice [1-5]: " version_choice
+read -p "Enter your choice [1-6]: " version_choice
 
 # 
 DEB_URL=""
@@ -47,6 +48,10 @@ case $version_choice in
         DEB_URL="https://github.com/Superchavo/termux-display-manager-repo/raw/refs/heads/master/termux-dm_5.0-LTS-Support.deb"
         ;;
     5)
+        echo "Preparing to install TDM Version 6 LTS (Morano)..."
+        DEB_URL="https://github.com/Superchavo/termux-display-manager-repo/raw/refs/heads/master/TermuxDM-v6-LTS-Codenamed-Morano.deb"
+        ;;
+    6)
         echo "Installation canceled by the user. Exiting."
         exit 0
         ;;

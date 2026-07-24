@@ -11,7 +11,7 @@ cat << 'ART'
 ART
 
 echo ""
-echo "Starting Unattended Auto-Installation for TDM Version 5 LTS..."
+echo "Starting Unattended Auto-Installation for TDM Version 6 LTS..."
 echo "------------------------------------------------------------"
 
 # 
@@ -34,6 +34,10 @@ curl -L -o "$DEB_FILE" "$DEB_URL"
 echo ""
 echo "Installing the downloaded .deb package..."
 apt install "./$DEB_FILE" -y
+
+echo "Linking tdm to termux-dm and also for tdmpasswd"
+ln -s $PREFIX/bin/tdm $PREFIX/bin/termux-dm
+ln -s $PREFIX/bin/tdmpasswd $PREFIX/bin/termux-dmpasswd
 
 echo ""
 echo "Auto-Installation completed successfully!"

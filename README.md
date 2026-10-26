@@ -6,8 +6,8 @@ you need a GUI or termux:x11, or vnc, a desktop (xfce4, plasma, mate) download t
 # Use the installer
 You can use the installer if u dont want to make any conflicts with packages not installed, use wget https://raw.githubusercontent.com/Superchavo/termux-display-manager-repo/refs/heads/master/tdminstaller.sh && chmod +x ./tdminstaller.sh && ./tdminstaller.sh
 
-![Screenshot of the latest one (5.0)](https://i.ibb.co/m5TsR90r/Screenshot-20260620-133119-AVNC.jpg)
-Screenshot of the latest one (5.0)
+![old as heck](https://i.ibb.co/m5TsR90r/Screenshot-20260620-133119-AVNC.jpg)
+(This is unupdated lol) (5.0)
 
 # Is this a virus?
 No! this isnt a virus, its a dm, you can always undeb the .deb when u want

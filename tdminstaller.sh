@@ -19,7 +19,7 @@ Please select the TDM version you want to install:
 2) Version 2
 3) Version 3.4
 4) Version 5 LTS
-5) Version 6 LTS (Codenamed Morano)
+5) Version 6.1 LTS (Codenamed Aurora)
 6) Cancel Installation
 
 MENU
@@ -48,8 +48,8 @@ case $version_choice in
         DEB_URL="https://github.com/Superchavo/termux-display-manager-repo/raw/refs/heads/master/termux-dm_5.0-LTS-Support.deb"
         ;;
     5)
-        echo "Preparing to install TDM Version 6 LTS (Morano)..."
-        DEB_URL="https://github.com/Superchavo/termux-display-manager-repo/raw/refs/heads/master/TermuxDM-v6-LTS-Codenamed-Morano.deb"
+        echo "Preparing to install TDM Version 6.1 LTS (Aurora)..."
+        DEB_URL="https://github.com/Superchavo/Superchavo/raw/refs/heads/main/NeeXtraRepo/pool/tdm-version-v6.1-codenamed-aurora.deb"
         ;;
     6)
         echo "Installation canceled by the user. Exiting."

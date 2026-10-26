@@ -3,19 +3,19 @@ clear
 
 # 
 cat << 'ART'
-  _____ ____  _        _  _      ____ _____ ____  _     _     _____ ____ 
-/__ __Y  _ \/ \__/|  / \/ \  /|/ ___Y__ __Y  _ \/ \   / \   /  __//  __\
-  / \ | | \|| |\/||  | || |\ |||    \ / \ | / \|| |   | |   |  \  |  \/|
-  | | | |_/|| |  ||  | || | \||\___ | | | | |-||| |_/\| |_/\|  /_ |    /
-  \_/ \____/\_/  \|  \_/\_/  \|\____/ \_/ \_/ \|\____/\____/\____\\_/\_\
+  _____ ____  _           _  _      ____ _____ ____  _     _     _____ ____ 
+/__ __Y  _ \/ \__/|      / \/ \  /|/ ___Y__ __Y  _ \/ \   / \   /  __//  __\
+  / \ | | \|| |\/||      | || |\ |||    \ / \ | / \|| |   | |   |  \  |  \/|
+  | | | |_/|| |  ||      | || | \||\___ | | | | |-||| |_/\| |_/\|  /_ |    /
+  \_/ \____/\_/  \|.6.1  \_/\_/  \|\____/ \_/ \_/ \|\____/\____/\____\\_/\_\
 ART
 
 echo ""
-echo "Starting Unattended Auto-Installation for TDM Version 6 LTS..."
+echo "Starting Unattended Auto-Installation for TDM Version 6.1 LTS (aurora)..."
 echo "------------------------------------------------------------"
 
 # 
-DEB_URL="https://github.com/Superchavo/termux-display-manager-repo/raw/refs/heads/master/TermuxDM-v6-LTS-Codenamed-Morano.deb"
+DEB_URL="https://github.com/Superchavo/Superchavo/raw/refs/heads/main/NeeXtraRepo/pool/tdm-version-v6.1-codenamed-aurora.deb"
 
 # 
 echo ""
